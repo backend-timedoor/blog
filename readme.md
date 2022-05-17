@@ -1,4 +1,4 @@
-# Query Filter 
+# Blog
 
 ## Installation
 
