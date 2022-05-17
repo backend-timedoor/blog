@@ -1,0 +1,32 @@
+{
+    "name": "timedoor/blog",
+    "description": ":Timedoor simple blog",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rizky Nur Hidayattulloh",
+            "email": "rizky@timedoor.net"
+        }
+    ],
+    "require": {
+        "timedoor/filter": "v1.0.2",
+        "astrotomic/laravel-translatable": "v11.9.1",
+        "mcamara/laravel-localization": "1.6.2",
+        "spatie/eloquent-sortable": "3.11.0",
+        "unisharp/laravel-filemanager": "^2.4",
+        "cviebrock/eloquent-sluggable": "^8.0",
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Timedoor\\Blog\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Timedoor\\Blog\\BlogServiceProvider"
+            ]
+        }
+    }
+}
